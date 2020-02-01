@@ -3,8 +3,21 @@
   <meta charset="utf-8">
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.65/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.65/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <style>
+    h1{
+    text-align: center;
+    color: blue
+  }
+  #cesiumContainer{
+    position: absolute;
+    margin: -250px 0 0 -350px;
+    top: 50%;
+    left: 50%;
+  }
+  </style>
 </head>
 <body>
+  <h1>Welcome to Cesium</h1>
   <div id="cesiumContainer" style="width: 700px; height:400px"></div>
   <script>
     Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI1NDU0MGY2MC00OGEwLTQ1MzUtODZiNi0zNGNhMDE4ZTQ3MjkiLCJpZCI6MjE1NDYsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1Nzk4MTY4NDh9.K8QtU1NfdHfW3rFInQzpw14ai1CifIt_uyBq00ikRlc';
